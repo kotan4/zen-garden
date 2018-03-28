@@ -1,0 +1,115 @@
+
+body {
+    background: #e8ecff;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    margin-left: 350px;
+}
+
+.main {
+    margin-left: 350px;
+}
+
+h1 {
+    text-align: center;
+    background: #e8ecff;
+    color: #160040;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-family: 'Copperplate';
+}
+
+.intro h2, .preamble h3, .main h3 {
+    text-align: center;
+    background: #E3655B;
+    color: #160040;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 34px;
+    font-family: 'Copperplate';
+}
+
+p {
+    font-family: 'Verdana';
+    font-size: 19px;
+    padding: 25px 50px 25px 50px;
+    margin: -5px;
+}
+footer {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 35px;
+    background: #e8ecff;
+}
+
+.sidebar {
+    position: fixed;
+    width: 335px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    padding-top: 35px;
+    padding-right: 15px;
+    background: #E3655B;
+}
+
+.sidebar:hover {
+    background: #e8ecff;
+
+}
+
+.sidebar h3 {
+    font-family: 'Copperplate';
+    color: #160040;
+    font-size: 25px;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.sidebar li {
+    font-family: 'Verdana';
+    font-size: 20px;
+    list-style: none;
+    margin-left: -15px;
+    color: #160040;
+}
+
+p a {
+    color: rgba(169, 33, 0, 0.9);
+    text-decoration: none;
+}
+
+.sidebar a, .sidebar a:visited {
+    color: #FAC9B8;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #E3655B;
+
+}
+
+@media screen and (max-width: 900px) {
+    .intro, .main {
+        margin-left: auto;
+    }
+
+    .sidebar {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 25px 0 25px 0;
+    }
+
+    .design-selection, .design-archives, .zen-resources {
+        width: 500px;
+    }
+}
